@@ -1,0 +1,6 @@
+[gd_scene format=3 uid="uid://c7136mimkymhc"]
+
+[ext_resource type="Script" uid="uid://uahrtnkj4lpq" path="res://diologue.gd" id="1_j13c4"]
+
+[node name="Diologue" type="Node" unique_id=365090572]
+script = ExtResource("1_j13c4")

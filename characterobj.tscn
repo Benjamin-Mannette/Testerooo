@@ -1,0 +1,6 @@
+[gd_scene format=3 uid="uid://dao7o28heuv3b"]
+
+[ext_resource type="Script" uid="uid://cyr343pammrx6" path="res://characterobj.gd" id="1_w3mbs"]
+
+[node name="Characterobj" type="Node" unique_id=449749816]
+script = ExtResource("1_w3mbs")

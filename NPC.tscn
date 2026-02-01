@@ -1,0 +1,18 @@
+[gd_scene format=3 uid="uid://daqr6xd7yxef1"]
+
+[ext_resource type="Script" uid="uid://xwvc40281j5q" path="res://NPC.gd" id="1_ll5ud"]
+[ext_resource type="PackedScene" uid="uid://dao7o28heuv3b" path="res://characterobj.tscn" id="2_4gyqm"]
+
+[node name="NPC" type="Node" unique_id=1931630368]
+script = ExtResource("1_ll5ud")
+
+[node name="Characterobj" parent="." unique_id=449749816 instance=ExtResource("2_4gyqm")]
+Item_id = 1
+Name = "intake_form"
+Tech_Name = "patient_intake_form"
+Vulg_Name = "form"
+Expertise_Required = "NULL"
+Associated_Department = "Civilian"
+Number_of_uses = 1
+Associated_Character = "Player"
+Use_type = "Diologue"

@@ -1,0 +1,44 @@
+[gd_scene format=3 uid="uid://ci3c4rc5iagbg"]
+
+[ext_resource type="Script" uid="uid://c1i4056l0ddx1" path="res://control2.gd" id="1_0fbet"]
+[ext_resource type="PackedScene" uid="uid://daqr6xd7yxef1" path="res://NPC.tscn" id="2_62e2m"]
+
+[node name="Reception" type="Control" unique_id=1717544686]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_0fbet")
+
+[node name="NPC" parent="." unique_id=1931630368 instance=ExtResource("2_62e2m")]
+Name = "janice"
+Name_2 = "jan"
+
+[node name="NPC2" parent="." unique_id=1271583253 instance=ExtResource("2_62e2m")]
+Prefered_diologe_type = "Confrontational"
+Disposition = 40
+Name = "robert"
+Name_2 = "sanchezz"
+DispositionRate = 10
+Expertise = "Civilian"
+Department = "Civilian"
+Mood = "Angry"
+
+[node name="NPC3" parent="." unique_id=965265231 instance=ExtResource("2_62e2m")]
+Prefered_diologe_type = "Inquisitive"
+Disposition = 42
+Name = "jim"
+Name_2 = "tim"
+DispositionRate = 2
+Expertise = "Accountant"
+Department = "Managment"
+Mood = "Apathetic"
+
+[node name="NPC4" parent="." unique_id=324083473 instance=ExtResource("2_62e2m")]
+Prefered_diologe_type = "Vague"
+Name = "mia"
+Name_2 = "that depressed  nurse"
+DispositionRate = 15
+Mood = "Sad"
